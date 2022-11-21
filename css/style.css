@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin:  0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(100%, 80px);
+	/*top: 25%;
+	left: 30%;*/
+	z-index: 1;
+}
+.fbshare{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -80px;
+	transition: 1s;
+	cursor: pointer;
+
+}
+.fbshare:hover{
+	right: 0px;
+}
+
+.socialicons{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.socialicons li{
+	list-style: none;
+	display: inline-block;
+}
+.socialicons li a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	font-size: 35px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	transition: 1s;
+}
+.socialicons li a:hover{
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+.socialicons li a:focus{
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+
+}
